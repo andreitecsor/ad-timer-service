@@ -6,7 +6,6 @@ public class TimerInfo {
     private boolean runForever;
     private long repeatIntervalMs;
     private long initialOffsetMs;
-    private String callbackData;
 
     public int getTotalFireCount() {
         return totalFireCount;
@@ -46,13 +45,5 @@ public class TimerInfo {
 
     public void setInitialOffsetMs(long initialOffsetMs) {
         this.initialOffsetMs = initialOffsetMs;
-    }
-
-    public String getCallbackData() {
-        return callbackData;
-    }
-
-    public void setCallbackData(String callbackData) {
-        this.callbackData = callbackData;
     }
 }
